@@ -13,8 +13,8 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="raspberrypi" Type="Raspberry Pi 2 B">
-		<Property Name="alias.name" Type="Str">raspberrypi</Property>
+	<Item Name="VMX" Type="Raspberry Pi 2 B">
+		<Property Name="alias.name" Type="Str">VMX</Property>
 		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
